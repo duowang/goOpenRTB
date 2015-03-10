@@ -65,9 +65,9 @@ type Video struct {
 	Battr          []int    `json:"battr"`
 	Type           []string `json:"type"`
 	Maxextended    int      `json:"maxextended"`
-	minbitrate     int      `json:"minbitrate"`
-	maxbitrate     int      `json:"minbitrate"`
-	boxingallowed  int      `json:"boxingallowed"`
+	Minbitrate     int      `json:"minbitrate"`
+	Maxbitrate     int      `json:"minbitrate"`
+	Boxingallowed  int      `json:"boxingallowed"`
 	Playbackmethod []int    `json:"playbackmethod"`
 	Delivery       []int    `json:"delivery"`
 	Pos            int      `json:"pos"`
